@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .columns {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .column {
+      flex: 1;
+      margin: 0 10px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 1em;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Add some design enhancements */
+
+    header h1 {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    section h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer p {
+      font-size: 14px;
+    }
+
+    /* Add some responsive design */
+
+    @media (max-width: 768px) {
+      .columns {
+        flex-direction: column;
+      }
+
+      .column {
+        flex: 0 0 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    
+    <h1>STARK INDUSTRIES</h1>
+    <p>!!Welcome To Stark Industries!!</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>We are the one of the largest movie productions in USA and have produced more than 400+ movies till now.. </p>
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <p>We offer a variety advanced Equipment to shoot the best and high Graphics pictures.</p>
+    <div class="columns">
+      <div class="column">
+        <h3>Feature 1</h3>
+        <p>We Have Panasonic GHc which is having the highest capacity to shoot in any motion.. and have accuracy in capturing close shots</p>
+      </div>
+      <div class="column">
+        <h3>Feature 2</h3>
+        <p>We have the best policies and have best work-force and in-time</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Feel free to reach out to us for Producing the biggest Cineimas Ever <a href="starkindustries.com">jishnuStark.com</a>.</p>
+  </section>
+
+  <footer>
+    &copy; 2023 Strak Industries. All rights reserved.
+  </footer>
+</body>
+
+</html>
